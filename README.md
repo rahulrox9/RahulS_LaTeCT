@@ -29,7 +29,6 @@ LaTeCT/
 ├── LICENSE
 └── README.md
 ```
-
 ---
 
 ## Workflow
