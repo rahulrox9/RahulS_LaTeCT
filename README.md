@@ -13,8 +13,7 @@ LaTeCT/
 │
 ├── data/
 │   ├── raw/
-│   ├── processed/
-│   └── external/
+│   └── processed/
 │
 ├── notebooks/
 │   ├── 01_Data_Visualisation.ipynb
