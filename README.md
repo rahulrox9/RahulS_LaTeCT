@@ -104,7 +104,7 @@ Model performance is assessed using:
 Clone the repository
 
 ```bash
-git clone https://github.com/<username>/LaTeCT.git
+git clone https://github.com/rahulrox9/RahulS_LaTeCT.git
 cd LaTeCT
 ```
 
