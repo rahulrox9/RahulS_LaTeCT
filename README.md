@@ -25,12 +25,6 @@ LaTeCT/
 ├── figures/
 ├── exports/
 │
-├── src/
-│   ├── preprocessing.py
-│   ├── plotting.py
-│   ├── modelling.py
-│   └── utils.py
-│
 ├── environment.yml
 ├── LICENSE
 └── README.md
