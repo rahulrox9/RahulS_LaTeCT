@@ -29,7 +29,6 @@ LaTeCT/
 │   └── external/
 │
 ├── notebooks/
-│   ├── 00_Data_Compilation.ipynb
 │   ├── 01_Data_Visualisation.ipynb
 │   ├── 02_Data_Audit_and_Feature_Selection.ipynb
 │   ├── 03_Data_Preprocessing.ipynb
@@ -53,10 +52,6 @@ LaTeCT/
 ---
 
 ## Workflow
-
-### 00 Data Compilation
-
-Compile geochemical analyses from multiple literature sources into a unified database.
 
 ### 01 Data Visualisation
 
