@@ -6,18 +6,6 @@ The repository accompanies the associated research publication and is intended t
 
 ---
 
-## Features
-
-- Reproducible data compilation and quality control workflows
-- Chondrite normalised REE and primitive mantle normalised spider diagrams
-- Data completeness assessment and feature selection
-- Geochemical data preprocessing and transformation
-- Dimensionality reduction and exploratory multivariate analysis
-- Supervised machine learning for tectonic classification
-- Publication quality figures and tables
-
----
-
 ## Repository Structure
 
 ```text
