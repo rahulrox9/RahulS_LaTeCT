@@ -1,8 +1,8 @@
 # LaTeCT: Lamproite Tectonic Classification Tool
 
-**LaTeCT** is an open source machine learning framework for tectonic classification of lamproites using whole rock geochemical data. The project provides a fully reproducible workflow from data compilation and quality control through exploratory geochemical analysis, preprocessing, dimensionality reduction and supervised machine learning.
+**LaTeCT** is an open source Python workflow for tectonic classification of lamproites using whole rock geochemical data. The repository provides a fully reproducible pipeline from data compilation and quality control through exploratory analysis, preprocessing, unsupervised analysis and Random Forest classification.
 
-The repository accompanies the associated research publication and is intended to provide a transparent and extensible framework for tectonic discrimination of lamproites.
+The workflow accompanies the associated research publication and is designed to promote transparent, reproducible and extensible tectonic discrimination of lamproites.
 
 ---
 
@@ -29,65 +29,69 @@ LaTeCT/
 ├── LICENSE
 └── README.md
 ```
+
 ---
 
 ## Workflow
 
 ### 01 Data Visualisation
 
-Generate exploratory geochemical figures including:
+Generate exploratory geochemical visualisations including:
 
 - Chondrite normalised REE diagrams
 - Primitive mantle normalised spider diagrams
-- Location level summaries
-- Distribution plots
+- Location summaries
+- Element distribution plots
 
 ### 02 Data Audit and Feature Selection
 
-Evaluate data completeness by:
+Construct the modelling dataset through:
 
-- Element availability
-- Sample completeness
-- Location coverage
-- Feature retention threshold optimisation
-
-Produce the final modelling dataset.
+- Data auditing
+- Element availability assessment
+- Sample completeness assessment
+- Location coverage evaluation
+- Feature selection
 
 ### 03 Data Preprocessing
 
-Prepare the modelling dataset through:
+Prepare the dataset for machine learning by:
 
-- Data transformation
-- Scaling
+- Log transformation
+- Standardisation
 - Distribution assessment
 - Correlation analysis
-- Training and testing dataset generation
+- Train/test split generation
 
 ### 04 Unsupervised Analysis
 
-Explore the dataset using:
+Investigate the natural structure of the dataset using:
 
-- Principal Component Analysis
-- UMAP
-- t-SNE
-- Clustering
+- Principal Component Analysis (PCA)
+- K means clustering
+- Cluster validation
+- Geochemical cluster interpretation
 
 ### 05 Supervised Classification
 
-Train and evaluate machine learning classifiers including:
+Develop and interpret a Random Forest classifier through:
 
-- Random Forest
-- Support Vector Machine
-- Gradient Boosting
-- XGBoost (optional)
+- Baseline model training
+- Five and ten fold cross validation
+- Hyperparameter optimisation using GridSearchCV
+- Final model evaluation
+- Random Forest decision structure analysis
+- Representative decision trees
+- Misclassified sample analysis
 
-Model performance is assessed using:
+Model performance is evaluated using:
 
-- Cross validation
-- ROC curves
-- Confusion matrices
-- Feature importance
-- SHAP interpretation
+- Accuracy
+- Balanced Accuracy
+- Precision
+- Recall
+- F1 score
+- ROC AUC
 
 ---
 
@@ -97,7 +101,7 @@ Clone the repository
 
 ```bash
 git clone https://github.com/rahulrox9/RahulS_LaTeCT.git
-cd LaTeCT
+cd RahulS_LaTeCT
 ```
 
 Create the conda environment
@@ -115,11 +119,11 @@ The repository expects the following directory structure:
 
 ```text
 data/
-    raw/
-    processed/
+├── raw/
+└── processed/
 ```
 
-Raw data should not be modified. All processed datasets are generated automatically by the notebooks.
+Raw data should not be modified. All processed datasets, figures and exported tables are generated automatically by the notebooks.
 
 ---
 
@@ -129,11 +133,9 @@ Raw data should not be modified. All processed datasets are generated automatica
 - NumPy
 - Pandas
 - Matplotlib
-- Seaborn
 - SciPy
 - scikit-learn
-- XGBoost
-- SHAP
+- Graphviz
 - JupyterLab
 
 The complete software environment is specified in `environment.yml`.
@@ -144,7 +146,7 @@ The complete software environment is specified in `environment.yml`.
 
 If you use LaTeCT in published work, please cite the associated publication.
 
-Citation information will be added following publication.
+Citation details will be added following publication.
 
 ---
 
@@ -152,7 +154,7 @@ Citation information will be added following publication.
 
 This project is distributed under the MIT Licence.
 
-See the `LICENSE` file for details.
+See `LICENSE` for details.
 
 ---
 
@@ -163,9 +165,3 @@ Rahul Subbaraman
 Department of Earth and Environmental Sciences
 
 The University of Manchester
-
----
-
-## Status
-
-LaTeCT is currently under active development.
