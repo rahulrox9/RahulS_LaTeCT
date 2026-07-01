@@ -1,0 +1,4 @@
+,mean,std,min,max
+Accuracy,0.973,0.002,0.973,0.982
+Balanced Accuracy,0.962,0.002,0.962,0.974
+ROC AUC,0.998,0.001,0.996,0.999
