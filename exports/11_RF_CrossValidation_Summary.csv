@@ -1,7 +1,0 @@
-,Mean,SD
-Accuracy,0.961,0.025
-Balanced Accuracy,0.952,0.029
-Precision Macro,0.963,0.028
-Recall Macro,0.952,0.029
-F1 Macro,0.957,0.027
-ROC AUC,0.991,0.011

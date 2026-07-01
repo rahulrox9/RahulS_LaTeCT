@@ -1,0 +1,27 @@
+Series,Location,Analyses,Median_Measured_TE,Min_Measured_TE,Max_Measured_TE,Median_Missing_TE,Median_Completeness_pct
+Anorogenic,Utah (USA),2,3.0,3,3,26.0,10.344827586206897
+Anorogenic,Zambia,6,9.0,9,9,20.0,31.03448275862069
+Anorogenic,Australia,101,14.0,11,23,15.0,48.275862068965516
+Anorogenic,USA (Kansas),22,14.0,14,17,15.0,48.275862068965516
+Anorogenic,Norway,14,20.0,13,28,9.0,68.9655172413793
+Anorogenic,Russia,9,24.0,23,29,5.0,82.75862068965517
+Anorogenic,Antarctica,22,26.0,0,29,3.0,89.65517241379311
+Anorogenic,China (Yangtze Block),13,29.0,29,29,0.0,100.0
+Anorogenic,India,21,29.0,9,29,0.0,100.0
+Anorogenic,"USA (Leucite Hills, Wyoming)",6,29.0,25,29,0.0,100.0
+Orogenic,NE Algeria,3,3.0,3,3,26.0,10.344827586206897
+Orogenic,Italy (Tuscany) V.EOM,37,12.0,11,29,17.0,41.37931034482759
+Orogenic,Spain (Betics),148,15.0,0,29,14.0,51.724137931034484
+Orogenic,France (Corsica - Sisco),8,16.5,0,29,12.5,56.89655172413793
+Orogenic,W Alps ,12,21.0,12,26,8.0,72.41379310344827
+Orogenic,Italy (Tuscany) T.A.,10,22.0,11,29,7.0,75.86206896551724
+Orogenic,Pannonian Basin,1,22.0,22,22,7.0,75.86206896551724
+Orogenic,Turkey West,69,25.0,12,29,4.0,86.20689655172414
+Orogenic,Macedonia,64,26.0,23,26,3.0,89.65517241379311
+Orogenic,Serbia,7,26.0,25,26,3.0,89.65517241379311
+Orogenic,Bulgaria,3,28.0,28,28,1.0,96.55172413793103
+Orogenic,Peru,1,28.0,28,28,1.0,96.55172413793103
+Orogenic,Bohemian Massif,16,29.0,28,29,0.0,100.0
+Orogenic,Canada,2,29.0,29,29,0.0,100.0
+Orogenic,China,21,29.0,29,29,0.0,100.0
+Orogenic,Greece,8,29.0,29,29,0.0,100.0
