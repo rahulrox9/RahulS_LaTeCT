@@ -1,0 +1,30 @@
+Retained_elements,Elements,Analyses,Orogenic,Anorogenic,Countries,Analyses_x_elements,ΔAnalyses,ΔCountries,ΔAnalyses_x_elements
+29,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta, Gd, Dy, Er, Cs, Pr, Tb, Ho, Tm, Nd",88,56,32,11,2552,,,
+28,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta, Gd, Dy, Er, Cs, Pr, Tb, Ho, Tm",305,56,249,13,8540,217.0,2.0,5988.0
+27,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta, Gd, Dy, Er, Cs, Pr, Tb, Ho",306,56,250,13,8262,1.0,0.0,-278.0
+26,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta, Gd, Dy, Er, Cs, Pr, Tb",318,68,250,13,8268,12.0,0.0,6.0
+25,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta, Gd, Dy, Er, Cs, Pr",405,153,252,16,10125,87.0,3.0,1857.0
+24,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta, Gd, Dy, Er, Cs",405,153,252,16,9720,0.0,0.0,-405.0
+23,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta, Gd, Dy, Er",446,183,263,17,10258,41.0,1.0,538.0
+22,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta, Gd, Dy",448,185,263,17,9856,2.0,0.0,-402.0
+21,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta, Gd",457,194,263,17,9597,9.0,0.0,-259.0
+20,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf, Ta",491,203,288,17,9820,34.0,0.0,223.0
+19,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu, Hf",495,205,290,17,9405,4.0,0.0,-415.0
+18,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb, Lu",497,207,290,17,8946,2.0,0.0,-459.0
+17,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu, Yb",508,212,296,17,8636,11.0,0.0,-310.0
+16,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm, Eu",508,212,296,17,8128,0.0,0.0,-508.0
+15,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U, Sm",508,212,296,17,7620,0.0,0.0,-508.0
+14,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb, U",692,213,479,17,9688,184.0,0.0,2068.0
+13,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th, Pb",737,222,515,18,9581,45.0,1.0,-107.0
+12,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La, Th",795,271,524,20,9540,58.0,2.0,-41.0
+11,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce, La",820,295,525,20,9020,25.0,0.0,-520.0
+10,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y, Ce",820,295,525,20,8200,0.0,0.0,-820.0
+9,"K, Ti, Nb, P, Rb, Zr, Sr, Ba, Y",868,324,544,21,7812,48.0,1.0,-388.0
+8,"K, Ti, Nb, P, Rb, Zr, Sr, Ba",897,345,552,21,7176,29.0,0.0,-636.0
+7,"K, Ti, Nb, P, Rb, Zr, Sr",911,345,566,21,6377,14.0,0.0,-799.0
+6,"K, Ti, Nb, P, Rb, Zr",943,345,598,21,5658,32.0,0.0,-719.0
+5,"K, Ti, Nb, P, Rb",945,345,600,21,4725,2.0,0.0,-933.0
+4,"K, Ti, Nb, P",980,360,620,21,3920,35.0,0.0,-805.0
+3,"K, Ti, Nb",987,360,627,21,2961,7.0,0.0,-959.0
+2,"K, Ti",1021,373,648,22,2042,34.0,1.0,-919.0
+1,K,1021,373,648,22,1021,0.0,0.0,-1021.0
