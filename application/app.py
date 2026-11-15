@@ -1,9 +1,14 @@
+import os
 import gradio as gr
 import pandas as pd
 import joblib
 
+current_directory = os.path.dirname(os.path.abspath(__file__))
+parent_directory = os.path.dirname(current_directory)
+model_path = os.path.join(parent_directory, 'final_rf.joblib')
+
 def classify_lamproites(input_filepath):
-    model = joblib.load('final_rf.joblib')
+    model = joblib.load(model_path)
     
     geochemical_data = pd.read_csv(input_filepath)
     
@@ -22,7 +27,7 @@ interface = gr.Interface(
     inputs=gr.File(label="Upload Geochemical Data (CSV format)"),
     outputs=gr.File(label="Download Classified Data (CSV format)"),
     title="LaTeCT: Lamproite Tectonic Classification Tool",
-    description="Upload a CSV file containing whole rock trace element data. The application will return the dataset appended with the predicted tectonic settings."
+    description="Upload a CSV file containing whole rock trace element data. The application returns the dataset appended with predicted tectonic settings."
 )
 
 if __name__ == "__main__":
