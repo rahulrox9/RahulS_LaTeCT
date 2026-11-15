@@ -1,0 +1,200 @@
+digraph {
+	dpi=300 rankdir=TB
+	node [fontname=Arial fontsize=18]
+	edge [fontname=Arial fontsize=16]
+	0 [label="Ti ≤ 12400.48 ppm
+samples = 347
+value = [Anorogenic=373, Orogenic=180]" fillcolor=white shape=box style="rounded,filled"]
+	1 [label="Nb ≤ 19.65 ppm
+samples = 134
+value = [Anorogenic=43, Orogenic=172]" fillcolor=white shape=box style="rounded,filled"]
+	2 [label="Th ≤ 56.82 ppm
+samples = 27
+value = [Anorogenic=26, Orogenic=14]" fillcolor=white shape=box style="rounded,filled"]
+	3 [label="Zr ≤ 225.97 ppm
+samples = 23
+value = [Anorogenic=26, Orogenic=9]" fillcolor=white shape=box style="rounded,filled"]
+	4 [label="Predicted class = Anorogenic
+samples = 8
+value = [Anorogenic=13, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	5 [label="Ba ≤ 2709.41 ppm
+samples = 15
+value = [Anorogenic=13, Orogenic=9]" fillcolor=white shape=box style="rounded,filled"]
+	6 [label="La ≤ 83.59 ppm
+samples = 10
+value = [Anorogenic=4, Orogenic=9]" fillcolor=white shape=box style="rounded,filled"]
+	7 [label="Predicted class = Orogenic
+samples = 7
+value = [Anorogenic=0, Orogenic=9]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	8 [label="Predicted class = Anorogenic
+samples = 3
+value = [Anorogenic=4, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	6 -> 7 [label=True]
+	6 -> 8 [label=False]
+	9 [label="Predicted class = Anorogenic
+samples = 5
+value = [Anorogenic=9, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	5 -> 6 [label=True]
+	5 -> 9 [label=False]
+	3 -> 4 [label=True]
+	3 -> 5 [label=False]
+	10 [label="Predicted class = Orogenic
+samples = 4
+value = [Anorogenic=0, Orogenic=5]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	2 -> 3 [label=True]
+	2 -> 10 [label=False]
+	11 [label="P ≤ 8916.67 ppm
+samples = 107
+value = [Anorogenic=17, Orogenic=158]" fillcolor=white shape=box style="rounded,filled"]
+	12 [label="U ≤ 4.69 ppm
+samples = 102
+value = [Anorogenic=10, Orogenic=158]" fillcolor=white shape=box style="rounded,filled"]
+	13 [label="Ti ≤ 7727.49 ppm
+samples = 19
+value = [Anorogenic=8, Orogenic=20]" fillcolor=white shape=box style="rounded,filled"]
+	14 [label="Sr ≤ 129.66 ppm
+samples = 7
+value = [Anorogenic=7, Orogenic=3]" fillcolor=white shape=box style="rounded,filled"]
+	15 [label="U ≤ 2.90 ppm
+samples = 3
+value = [Anorogenic=1, Orogenic=3]" fillcolor=white shape=box style="rounded,filled"]
+	16 [label="Predicted class = Orogenic
+samples = 2
+value = [Anorogenic=0, Orogenic=3]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	17 [label="Predicted class = Anorogenic
+samples = 1
+value = [Anorogenic=1, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	15 -> 16 [label=True]
+	15 -> 17 [label=False]
+	18 [label="Predicted class = Anorogenic
+samples = 4
+value = [Anorogenic=6, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	14 -> 15 [label=True]
+	14 -> 18 [label=False]
+	19 [label="P ≤ 8094.48 ppm
+samples = 12
+value = [Anorogenic=1, Orogenic=17]" fillcolor=white shape=box style="rounded,filled"]
+	20 [label="Predicted class = Orogenic
+samples = 11
+value = [Anorogenic=0, Orogenic=17]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	21 [label="Predicted class = Anorogenic
+samples = 1
+value = [Anorogenic=1, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	19 -> 20 [label=True]
+	19 -> 21 [label=False]
+	13 -> 14 [label=True]
+	13 -> 19 [label=False]
+	22 [label="La ≤ 228.81 ppm
+samples = 83
+value = [Anorogenic=2, Orogenic=138]" fillcolor=white shape=box style="rounded,filled"]
+	23 [label="Th ≤ 5.20 ppm
+samples = 82
+value = [Anorogenic=1, Orogenic=138]" fillcolor=white shape=box style="rounded,filled"]
+	24 [label="Th ≤ 3.79 ppm
+samples = 3
+value = [Anorogenic=1, Orogenic=3]" fillcolor=white shape=box style="rounded,filled"]
+	25 [label="Predicted class = Orogenic
+samples = 2
+value = [Anorogenic=0, Orogenic=3]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	26 [label="Predicted class = Anorogenic
+samples = 1
+value = [Anorogenic=1, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	24 -> 25 [label=True]
+	24 -> 26 [label=False]
+	27 [label="Predicted class = Orogenic
+samples = 79
+value = [Anorogenic=0, Orogenic=135]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	23 -> 24 [label=True]
+	23 -> 27 [label=False]
+	28 [label="Predicted class = Anorogenic
+samples = 1
+value = [Anorogenic=1, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	22 -> 23 [label=True]
+	22 -> 28 [label=False]
+	12 -> 13 [label=True]
+	12 -> 22 [label=False]
+	29 [label="Predicted class = Anorogenic
+samples = 5
+value = [Anorogenic=7, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	11 -> 12 [label=True]
+	11 -> 29 [label=False]
+	1 -> 2 [label=True]
+	1 -> 11 [label=False]
+	30 [label="La ≤ 17.90 ppm
+samples = 213
+value = [Anorogenic=330, Orogenic=8]" fillcolor=white shape=box style="rounded,filled"]
+	31 [label="Ti ≤ 14533.94 ppm
+samples = 12
+value = [Anorogenic=13, Orogenic=3]" fillcolor=white shape=box style="rounded,filled"]
+	32 [label="Predicted class = Orogenic
+samples = 2
+value = [Anorogenic=0, Orogenic=3]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	33 [label="Predicted class = Anorogenic
+samples = 10
+value = [Anorogenic=13, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	31 -> 32 [label=True]
+	31 -> 33 [label=False]
+	34 [label="Th ≤ 83.30 ppm
+samples = 201
+value = [Anorogenic=317, Orogenic=5]" fillcolor=white shape=box style="rounded,filled"]
+	35 [label="Ba ≤ 392.44 ppm
+samples = 195
+value = [Anorogenic=310, Orogenic=3]" fillcolor=white shape=box style="rounded,filled"]
+	36 [label="P ≤ 8072.93 ppm
+samples = 23
+value = [Anorogenic=32, Orogenic=3]" fillcolor=white shape=box style="rounded,filled"]
+	37 [label="Th ≤ 35.37 ppm
+samples = 20
+value = [Anorogenic=30, Orogenic=1]" fillcolor=white shape=box style="rounded,filled"]
+	38 [label="Predicted class = Anorogenic
+samples = 18
+value = [Anorogenic=29, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	39 [label="K ≤ 16231.16 ppm
+samples = 2
+value = [Anorogenic=1, Orogenic=1]" fillcolor=white shape=box style="rounded,filled"]
+	40 [label="Predicted class = Orogenic
+samples = 1
+value = [Anorogenic=0, Orogenic=1]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	41 [label="Predicted class = Anorogenic
+samples = 1
+value = [Anorogenic=1, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	39 -> 40 [label=True]
+	39 -> 41 [label=False]
+	37 -> 38 [label=True]
+	37 -> 39 [label=False]
+	42 [label="P ≤ 8851.50 ppm
+samples = 3
+value = [Anorogenic=2, Orogenic=2]" fillcolor=white shape=box style="rounded,filled"]
+	43 [label="Predicted class = Orogenic
+samples = 1
+value = [Anorogenic=0, Orogenic=2]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	44 [label="Predicted class = Anorogenic
+samples = 2
+value = [Anorogenic=2, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	42 -> 43 [label=True]
+	42 -> 44 [label=False]
+	36 -> 37 [label=True]
+	36 -> 42 [label=False]
+	45 [label="Predicted class = Anorogenic
+samples = 172
+value = [Anorogenic=278, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	35 -> 36 [label=True]
+	35 -> 45 [label=False]
+	46 [label="Ti ≤ 15313.71 ppm
+samples = 6
+value = [Anorogenic=7, Orogenic=2]" fillcolor=white shape=box style="rounded,filled"]
+	47 [label="Predicted class = Orogenic
+samples = 2
+value = [Anorogenic=0, Orogenic=2]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	48 [label="Predicted class = Anorogenic
+samples = 4
+value = [Anorogenic=7, Orogenic=0]" fillcolor=lightgrey shape=box style="rounded,filled"]
+	46 -> 47 [label=True]
+	46 -> 48 [label=False]
+	34 -> 35 [label=True]
+	34 -> 46 [label=False]
+	30 -> 31 [label=True]
+	30 -> 34 [label=False]
+	0 -> 1 [label=True]
+	0 -> 30 [label=False]
+}
