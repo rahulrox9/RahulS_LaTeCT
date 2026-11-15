@@ -1,6 +1,0 @@
-Training Samples,Training Balanced Accuracy,Training SD,Validation Balanced Accuracy,Validation SD
-53,1.0,0.0,0.932,0.039
-106,1.0,0.0,0.937,0.035
-159,1.0,0.0,0.959,0.024
-212,1.0,0.0,0.952,0.026
-266,1.0,0.0,0.957,0.026
