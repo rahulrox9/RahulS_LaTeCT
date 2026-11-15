@@ -1,8 +1,8 @@
 # LaTeCT: Lamproite Tectonic Classification Tool
 
-**LaTeCT** is an open source Python workflow for tectonic classification of lamproites using whole rock geochemical data. The repository provides a fully reproducible pipeline from data compilation and quality control through exploratory analysis, preprocessing, unsupervised analysis and Random Forest classification.
+**LaTeCT** is an open source Python workflow for the tectonic classification of lamproites using whole rock geochemical data. The repository provides a fully reproducible pipeline from data compilation and quality control through exploratory analysis, preprocessing, unsupervised analysis and Random Forest classification.
 
-The workflow accompanies the associated research publication and is designed to promote transparent, reproducible and extensible tectonic discrimination of lamproites.
+The workflow accompanies the associated research publication in Lithos and is designed to promote transparent, reproducible and extensible tectonic discrimination of lamproites.
 
 ---
 
@@ -11,20 +11,25 @@ The workflow accompanies the associated research publication and is designed to 
 ```text
 LaTeCT/
 │
-├── data/
+├── model_data/
 │   ├── raw/
-│   └── processed/
+│   ├── processed/
+│   └── external_validation/
 │
-├── notebooks/
-│   ├── 01_Data_Visualisation.ipynb
+├── dev-notebooks/
+│   ├── 01_Exploratory_Geochemical_Visualisation.ipynb
 │   ├── 02_Data_Audit_and_Feature_Selection.ipynb
 │   ├── 03_Data_Preprocessing.ipynb
 │   ├── 04_Unsupervised_Analysis.ipynb
-│   └── 05_Supervised_Classification.ipynb
+│   └── 05_Supervised_Analysis.ipynb
 │
-├── figures/
-├── exports/
+├── final_rf.joblib
 │
+├── model_output/
+│   ├── exports/
+│   └── figures/
+│
+├── LaTeCT.ipynb
 ├── environment.yml
 ├── LICENSE
 └── README.md
@@ -123,8 +128,6 @@ data/
 └── processed/
 ```
 
-Raw data should not be modified. All processed datasets, figures and exported tables are generated automatically by the notebooks.
-
 ---
 
 ## Requirements
@@ -135,6 +138,7 @@ Raw data should not be modified. All processed datasets, figures and exported ta
 - Matplotlib
 - SciPy
 - scikit-learn
+- -joblib
 - Graphviz
 - JupyterLab
 
@@ -144,9 +148,7 @@ The complete software environment is specified in `environment.yml`.
 
 ## Citation
 
-If you use LaTeCT in published work, please cite the associated publication.
-
-Citation details will be added following publication.
+If you use LaTeCT in published work, please cite: 
 
 ---
 
@@ -161,7 +163,5 @@ See `LICENSE` for details.
 ## Author
 
 Rahul Subbaraman
-
-Department of Earth and Environmental Sciences
-
-The University of Manchester
+Associate Editor, Springer Nature
+(Formerly: Department of Earth and Environmental Sciences, The University of Manchester)
