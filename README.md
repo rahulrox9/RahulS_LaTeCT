@@ -1,5 +1,7 @@
 # LaTeCT: Lamproite Tectonic Classification Tool
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rahulrox9/RahulS_LaTeCT/main?filepath=LaTeCT_Application.ipynb)
+
 **LaTeCT** is an open source Python workflow for the tectonic classification of lamproites using whole rock geochemical data. The repository provides a fully reproducible pipeline from data compilation and quality control through exploratory analysis, preprocessing, unsupervised analysis and Random Forest classification.
 
 The workflow accompanies the associated research publication in Lithos and is designed to promote transparent, reproducible and extensible tectonic discrimination of lamproites.
@@ -33,7 +35,6 @@ LaTeCT/
 ├── environment.yml
 ├── LICENSE
 └── README.md
-```
 
 ---
 
