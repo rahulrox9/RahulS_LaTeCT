@@ -1,12 +1,42 @@
 # LaTeCT: Lamproite Tectonic Classification Tool
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rahulrox9/RahulS_LaTeCT/main?filepath=LaTeCT_Application.ipynb)
-
 **LaTeCT** is an open source Python workflow for the tectonic classification of lamproites using whole rock geochemical data. The repository provides a fully reproducible pipeline from data compilation and quality control through exploratory analysis, preprocessing, unsupervised analysis and Random Forest classification.
 
 The workflow accompanies the associated research publication in Lithos and is designed to promote transparent, reproducible and extensible tectonic discrimination of lamproites.
 
----
+## Launch LaTeCT Online
+
+You can run the LaTeCT graphical classification tool directly in your web browser without installing any software locally. Click the badge below to launch a temporary cloud environment via Binder:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rahulrox9/RahulS_LaTeCT/main?filepath=LaTeCT_Application.ipynb)
+
+**Instructions for use:**
+1. Click the Binder badge above.
+2. Wait for the cloud environment to build and load.
+3. Once the `LaTeCT_Application.ipynb` notebook opens, select the code cell and press `Shift + Enter` to execute it.
+4. Use the generated graphical interface to upload your `.csv` dataset and download the classified results.
+
+## Requirements
+
+The complete software environment is specified in `environment.yml`. Core dependencies include:
+
+* Python 3.11+
+* NumPy
+* Pandas
+* Matplotlib
+* SciPy
+* scikit-learn
+* joblib
+* Graphviz
+* JupyterLab
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone [https://github.com/rahulrox9/RahulS_LaTeCT.git](https://github.com/rahulrox9/RahulS_LaTeCT.git)
+cd RahulS_LaTeCT
 
 ## Repository Structure
 
@@ -35,9 +65,7 @@ LaTeCT/
 ├── environment.yml
 ├── LICENSE
 └── README.md
-
 ---
-
 ## Workflow
 
 ### 01 Data Visualisation
@@ -101,52 +129,6 @@ Model performance is evaluated using:
 
 ---
 
-## Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/rahulrox9/RahulS_LaTeCT.git
-cd RahulS_LaTeCT
-```
-
-Create the conda environment
-
-```bash
-conda env create -f environment.yml
-conda activate tectonic_ml
-```
-
----
-
-## Data
-
-The repository expects the following directory structure:
-
-```text
-data/
-├── raw/
-└── processed/
-```
-
----
-
-## Requirements
-
-- Python 3.11+
-- NumPy
-- Pandas
-- Matplotlib
-- SciPy
-- scikit-learn
-- -joblib
-- Graphviz
-- JupyterLab
-
-The complete software environment is specified in `environment.yml`.
-
----
-
 ## Citation
 
 If you use LaTeCT in published work, please cite: 
@@ -164,5 +146,5 @@ See `LICENSE` for details.
 ## Author
 
 Rahul Subbaraman
-Associate Editor, Springer Nature
+Associate Editor, Communications Earth and Environment, Springer Nature
 (Formerly: Department of Earth and Environmental Sciences, The University of Manchester)
