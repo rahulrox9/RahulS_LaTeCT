@@ -1,1 +1,7 @@
-
+*
+!LaTeCT_Application.ipynb
+!environment.yml
+!final_rf.joblib
+!README.md
+!sample_data.csv
+!.dockerignore
